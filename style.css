@@ -1,84 +1,76 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #F5F1E8; /* Beige */
-  color: #1E2A38;
+  background-color: #F5F1E8;
 }
 
-/* Navbar dropdown on hover */
-.navbar-nav li {
+nav {
+  background-color: #D8CFC0;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  width: 120px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+  padding: 0;
+}
+
+.navbar ul li {
   position: relative;
 }
 
-.navbar-nav li ul {
+.navbar a {
+  text-decoration: none;
+  color: #1E2A38;
+  font-weight: bold;
+}
+
+/* Dropdown */
+.navbar ul li ul {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: #D8CFC0;
   padding: 0;
-  list-style: none;
-  min-width: 150px;
-  border-radius: 5px;
+  min-width: 140px;
 }
 
-.navbar-nav li:hover > ul {
+.navbar ul li:hover ul {
   display: block;
 }
 
-.navbar-nav li ul li {
-  width: 100%;
-}
-
-.navbar-nav li ul li a {
+.navbar ul li ul li a {
   display: block;
-  padding: 10px 15px;
-  color: #1E2A38;
-  text-decoration: none;
+  padding: 10px;
 }
 
-.navbar-nav li ul li a:hover {
+.navbar ul li ul li a:hover {
   background-color: #1E4ED8;
-  color: #F5F1E8;
-  transition: 0.3s;
+  color: white;
 }
 
-header {
-  text-align: center;
-  padding: 50px;
-  background-color: #1E4ED8;
-  color: #F5F1E8;
-}
-
-section {
+main {
   padding: 40px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1, h2 {
-  color: #1E4ED8;
-}
-
-.img-placeholder {
-  width: 100%;
-  max-width: 600px;
-  height: 300px;
-  background-color: #D8CFC0;
-  border: 3px dashed #1E4ED8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-  font-weight: bold;
-}
-
-.footer {
   text-align: center;
-  padding: 20px;
-  background-color: #1E4ED8;
-  color: #F5F1E8;
-  font-size: 14px;
+}
+
+footer {
+  background-color: #1E2A38;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 .footer a {
@@ -89,4 +81,11 @@ h1, h2 {
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+.carousel img {
+  max-width: 80vw;
+  height: auto;
+  object-fit: cover;
+  padding-top: 20px;
 }
