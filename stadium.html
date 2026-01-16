@@ -1,29 +1,217 @@
-<section>
-  <h1>Stadium Plan</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boots & Beast Fest | Stadium</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <div class="img-placeholder">Seating Chart Image</div>
-  <div class="img-placeholder">Mezzanine Diagram</div>
+<!-- NAVBAR -->
+<nav class="navbar d-flex align-items-center p-3">
+  <a href="index.html"><img src="logo.png" alt="Festival Logo" class="logo-img"></a>
+  <ul class="nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="city.html">City Info</a></li>
+    <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
+    <li class="nav-item dropdown-hover">
+      <a class="nav-link" href="#">Line Up ▼</a>
+      <ul>
+        <li><a href="night1.html">Night 1</a></li>
+        <li><a href="night2.html">Night 2</a></li>
+        <li><a href="night3.html">Night 3</a></li>
+      </ul>
+    </li>
+    <li class="nav-item"><a class="nav-link active" href="stadium.html">Stadium</a></li>
+    <li class="nav-item"><a class="nav-link" href="store.html">Team Store</a></li>
+    <li class="nav-item"><a class="nav-link" href="promotion.html">Opening Day Promo</a></li>
+    <li class="nav-item"><a class="nav-link" href="final.html">Final Summation</a></li>
+    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-  <h2>Food & Beverage</h2>
-  <div class="img-placeholder">Food Vendors Images</div>
+<!-- STADIUM PLAN -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Stadium Plan</h2>
+  
+  <!-- Seating Chart -->
+  <div class="card mb-4">
+    <img src="stadium-seating.jpeg" class="card-img-top p-3" style="height:350px; object-fit:cover;" alt="Seating Chart">
+    <div class="card-body text-center">
+      <h5>Seating Chart with Team Logo</h5>
+    </div>
+  </div>
 
-  <h2>Ticket Pricing</h2>
-  <p>General Admission: $75 | VIP: $200</p>
-
-  <h2>Mass Transit</h2>
-  <div class="img-placeholder">Transit Map</div>
+  <!-- Mezzanine Level -->
+  <div class="card mb-4">
+    <img src="mezzanine.jpeg" class="card-img-top p-3" style="height:250px; object-fit:cover;" alt="Mezzanine Level">
+    <div class="card-body text-center">
+      <h5>Mezzanine Level Diagram</h5>
+    </div>
+  </div>
 </section>
-<div class="footer">
+
+<!-- STADIUM AMENITIES -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Stadium Amenities</h2>
+  <div class="row text-center g-4">
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="entrances.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Entrances">
+        <div class="card-body">
+          <h5>Entrances</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="food.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Food">
+        <div class="card-body">
+          <h5>Food</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="bathrooms.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Bathrooms">
+        <div class="card-body">
+          <h5>Bathrooms</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="merch.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Merchandise">
+        <div class="card-body">
+          <h5>Merchandise Stores</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="security.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Security">
+        <div class="card-body">
+          <h5>Security</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STADIUM FOOD & BEVERAGES -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Food & Beverages</h2>
+  
+  <!-- Restaurants -->
+  <h4 class="mb-3">Restaurants</h4>
+  <div class="row text-center g-4 mb-4">
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="burger.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Burger Stand">
+        <div class="card-body">
+          <h5>Burger Stand</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="pizza.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Pizza Corner">
+        <div class="card-body">
+          <h5>Pizza Corner</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="tacos.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Taco Stand">
+        <div class="card-body">
+          <h5>Taco Stand</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Beverages -->
+  <h4 class="mb-3">Beverages</h4>
+  <div class="row text-center g-4">
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="beer.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Beer">
+        <div class="card-body">
+          <h5>Craft Beer</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="soda.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Soda">
+        <div class="card-body">
+          <h5>Soda & Soft Drinks</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 hover-scale">
+        <img src="cocktail.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Cocktails">
+        <div class="card-body">
+          <h5>Cocktails</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKET PRICING -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Ticket Pricing</h2>
+  <p class="text-center">
+    Our ticket pricing is designed to be accessible for all fans. General admission starts at $75, premium seating $150, and VIP experience $300. We aim to provide a mix of affordability and exclusive experiences.
+  </p>
+</section>
+
+<!-- MASS TRANSIT -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Mass Transit Options</h2>
+  <div class="row text-center g-4">
+    <div class="col-md-6">
+      <div class="card h-100 hover-scale">
+        <img src="bus.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Bus">
+        <div class="card-body">
+          <h5>City Bus</h5>
+          <a href="https://www.nashvillemta.org/" target="_blank">Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card h-100 hover-scale">
+        <img src="train.jpeg" class="card-img-top p-3" style="height:200px; object-fit:cover;" alt="Train">
+        <div class="card-body">
+          <h5>Train</h5>
+          <a href="https://www.amtrak.com/" target="_blank">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GOOGLE MAP -->
+<section class="container my-5 text-center">
+  <h2 class="mb-4">Stadium Location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.003519715464!2d-86.7738744241905!3d36.16646897243458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864664fe4bf4197%3A0xf9c5bc49669894e9!2sNissan%20Stadium!5e0!3m2!1sen!2sus!4v1768577704628!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer mt-5">
   <p>
-    Proud Sponsor: <strong>Gift of Life</strong> 🩸<br>
-    Supporting Blood Cancer Awareness & Life-Saving Transplants
+    View our festival <a href="https://music.apple.com/us/home" target="_blank">Setlist on Apple Music</a>
   </p>
   <p>
-    Some proceeds from Boots & Beats Fest are donated to Gift of Life.<br>
-    Guests can round up purchases to support the cause.
+    Proud Sponsor: <a href="https://www.giftoflife.org/" target="_blank">Gift of Life</a><br>
+    Supporting Blood Cancer Awareness through festival proceeds and guest donations.
   </p>
-  <p>
-    <a href="https://www.giftoflife.org/" target="_blank">Visit Gift of Life</a>
-  </p>
-    <p>© 2025 Boots & Beats Fest</p>
-</div>
+  <p>© 2026 Boots & Beast Fest | Nashville, TN</p>
+</footer>
+
+</body>
+</html>
