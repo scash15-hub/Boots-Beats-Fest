@@ -1,167 +1,216 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boots & Beast Fest | Merch Stand</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boots & Beast Fest | Merch Stand</title>
 
-<body>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<!-- NAVBAR -->
-<nav class="navbar d-flex align-items-center p-3">
-  <a href="index.html">
-    <img src="logo.png" alt="Festival Logo" height="50">
-  </a>
-  <ul class="nav ms-auto">
-    <li class="nav-item"><a class="nav-link" href="city.html">City Info</a></li>
-    <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
-    <li class="nav-item dropdown-hover">
-      <a class="nav-link" href="#">Line Up ▼</a>
-      <ul>
-        <li><a href="night1.html">Night 1</a></li>
-        <li><a href="night2.html">Night 2</a></li>
-        <li><a href="night3.html">Night 3</a></li>
+    <!-- YOUR CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar d-flex align-items-center p-3">
+      <a href="index.html">
+        <img src="logo.png" alt="Festival Logo" class="logo-img" />
+      </a>
+
+      <ul class="nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="city.html">City Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="travel.html">Travel</a>
+        </li>
+
+        <li class="nav-item dropdown-hover">
+          <a class="nav-link" href="#">Line Up ▼</a>
+          <ul>
+            <li><a href="night1.html">Night 1</a></li>
+            <li><a href="night2.html">Night 2</a></li>
+            <li><a href="night3.html">Night 3</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="store.html">Team Store</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="promotion.html">Opening Day Promo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="final.html">Final Summation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
       </ul>
-    </li>
-    <li class="nav-item"><a class="nav-link" href="stadium.html">Stadium</a></li>
-    <li class="nav-item"><a class="nav-link active" href="store.html">Merch Stand</a></li>
-    <li class="nav-item"><a class="nav-link" href="promotion.html">Opening Day Promo</a></li>
-    <li class="nav-item"><a class="nav-link" href="final.html">Final Summation</a></li>
-    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+    </nav>
 
-<!-- HERO -->
-<section class="container text-center my-5">
-  <h1>Merch Stand</h1>
-</section>
+    <!-- STAFF SHIRT -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Festival Staff Shirt</h2>
 
-<!-- FESTIVAL NAME & LOGO -->
-<section class="container my-5 text-center">
-  <h2>Festival Name & Logo</h2>
-  <img src="logo.png" class="img-fluid my-3" style="max-height:200px;">
-  <h4>Boots & Beast Fest</h4>
-  <p>
-    Boots & Beast Fest blends country roots with high-energy performances,
-    celebrating music, style, and festival culture in Nashville.
-  </p>
-</section>
-
-<!-- RATIONALE -->
-<section class="container my-5">
-  <h2 class="text-center mb-3">Rationale for Name & Logo</h2>
-  <p class="text-center">
-    The name “Boots & Beast” represents southern style and powerful performances.
-    The logo is bold, easy to recognize, and designed to look great on merch
-    fans will actually want to wear.
-  </p>
-</section>
-
-<!-- FESTIVAL MERCH -->
-<section class="container my-5">
-  <h2 class="text-center mb-4">Festival Merchandise</h2>
-  <div class="row g-4 justify-content-center">
-
-    <div class="col-md-4">
-      <div class="card h-100 text-center">
-        <img src="shirt.png" class="card-img-top">
-        <div class="card-body">
-          <h5>Official Festival T-Shirt</h5>
-          <p>Comfortable tee featuring the Boots & Beast Fest logo.</p>
-          <p><strong>$35</strong></p>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-5">
+          <div class="card text-center h-100">
+            <img src="staff.png" class="card-img-top" />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="col-md-4">
-      <div class="card h-100 text-center">
-        <img src="hoodie.png" class="card-img-top">
-        <div class="card-body">
-          <h5>Festival Hoodie</h5>
-          <p>Perfect for cool nights after the shows.</p>
-          <p><strong>$65</strong></p>
+    <!-- FESTIVAL MERCH -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Festival Merch</h2>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="t-shirt.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>T-Shirt</h5>
+              <strong>$40</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="sweatshirt.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Sweatshirt</h5>
+              <p>Perfect for night shows.</p>
+              <strong>$60</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="hat.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Hat</h5>
+              <p>Festival style.</p>
+              <strong>$25</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="tote.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Tote Bag</h5>
+              <p>Carry it all.</p>
+              <strong>$30</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="poster.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Poster</h5>
+              <p>Some might be signed!</p>
+              <strong>$25</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card h-100 text-center">
+            <img src="pin.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Pin</h5>
+              <strong>$5</strong>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="col-md-4">
-      <div class="card h-100 text-center">
-        <img src="hat.png" class="card-img-top">
-        <div class="card-body">
-          <h5>Boots & Beast Hat</h5>
-          <p>Classic country-style hat for sunny days.</p>
-          <p><strong>$30</strong></p>
+    <!-- MAIN ARTIST MERCH -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Artist Merch</h2>
+      <p class="text-center mb-4">
+        Official merchandise from our headlining artists.
+      </p>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="zachbryan.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Zach Bryan</h5>
+              <p>Have it on:</p>
+              <p><strong>T-Shirt:</strong> $45</p>
+              <p><strong>Sweatshirt:</strong> $65</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="lukecombs.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Luke Combs </h5>
+              <p>Have it on:</p>
+              <p><strong>T-Shirt:</strong> $45</p>
+              <p><strong>Sweatshirt:</strong> $65</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="morganwallen.png" class="card-img-top" />
+            <div class="card-body">
+              <h5>Morgan Wallen</h5>
+              <p>Have it on:</p>
+              <p><strong>T-Shirt:</strong> $45</p>
+              <p><strong>Sweatshirt:</strong> $65</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </div>
-</section>
+    <!-- PRICING STRATEGY -->
+    <section class="container my-5 text-center">
+      <h2>Pricing Strategy</h2>
+      <p>
+        Festival merch is priced to be accessible for all fans, while artist
+        merch is premium-priced due to limited availability and high demand.
+      </p>
+    </section>
 
-<!-- ANCILLARY PRODUCTS -->
-<section class="container my-5">
-  <h2 class="text-center mb-4">More Festival Gear</h2>
-  <div class="row g-4 justify-content-center">
+    <!-- FOOTER -->
+    <footer class="footer mt-5 text-center p-4">
+      <p>
+        View our festival
+        <a href="https://music.apple.com/us/home" target="_blank">
+          Setlist on Apple Music
+        </a>
+      </p>
 
-    <div class="col-md-4">
-      <div class="card h-100 text-center">
-        <img src="bandana.png" class="card-img-top">
-        <div class="card-body">
-          <h5>Festival Bandana</h5>
-          <p>Stylish accessory for any country festival look.</p>
-          <p><strong>$15</strong></p>
-        </div>
-      </div>
-    </div>
+      <p>
+        Proud Sponsor:
+        <a href="https://www.giftoflife.org/" target="_blank">Gift of Life</a
+        ><br />
+        Supporting Blood Cancer Awareness
+      </p>
 
-    <div class="col-md-4">
-      <div class="card h-100 text-center">
-        <img src="poster.png" class="card-img-top">
-        <div class="card-body">
-          <h5>Limited Edition Poster</h5>
-          <p>Collectible poster featuring the full lineup.</p>
-          <p><strong>$25</strong></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card h-100 text-center">
-        <img src="boots.png" class="card-img-top">
-        <div class="card-body">
-          <h5>Boot Barn Festival Boots</h5>
-          <p>Official Boots & Beast Fest boots from Boot Barn.</p>
-          <p><strong>$150</strong></p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- PRICING STRATEGY -->
-<section class="container my-5 text-center">
-  <h2>Pricing Strategy</h2>
-  <p>
-    Merchandise pricing is tiered to stay affordable for fans,
-    while offering premium items for exclusive festival gear.
-  </p>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer mt-5 text-center p-4">
-  <p>
-    View our festival <a href="https://music.apple.com/us/home" target="_blank">Setlist on Apple Music</a>
-  </p>
-  <p>
-    Proud Sponsor: <a href="https://www.giftoflife.org/" target="_blank">Gift of Life</a><br>
-    Supporting Blood Cancer Awareness through festival proceeds and guest donations.
-  </p>
-  <p>© 2026 Boots & Beast Fest | Nashville, TN</p>
-</footer>
-
-</body>
+      <p>© 2026 Boots & Beast Fest | Nashville, TN</p>
+    </footer>
+  </body>
 </html>
