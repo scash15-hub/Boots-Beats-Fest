@@ -89,3 +89,43 @@ footer {
   object-fit: cover;
   padding-top: 20px;
 }
+
+/* Rounded cards with hover effect */
+.card {
+  border-radius: 15px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-8px); /* Lifts the card slightly */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+/* Navbar font */
+.navbar, .navbar .nav-link {
+  font-family: cc-pass-the-port-aged, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+}
+
+/* H1 & H2 font */
+h1, h2, h3, h4 {
+font-family: gunplay-spraypaint, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/* Paragraph font */
+p {
+  font-family: merriweather, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Rounded cards */
+.card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
